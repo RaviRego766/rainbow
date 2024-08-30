@@ -1,0 +1,44 @@
+name: Rainbow
+description: Charges and fires three powerful beams of energy at ground targets.
+type: PowerTurret
+targetAir: false
+health: 40800
+reload: 75
+range: 300
+moveWhileCharging: false
+size: 3
+shootSound: laser
+heatColor: ff0000
+inaccuracy: 3
+consumes: {
+  power: 50
+}
+shoot: {
+  firstShotDelay: 30
+  type: ShootBarrel
+  barrels: [
+    0, -3, 0,
+    8, -4, 0,
+    -8, -4, 0
+  ],
+  barrelOffset: 1
+  shots: 5
+  shotDelay: 4.5
+}
+shootType: {
+  type: LaserBulletType
+  length: 210
+  width: 210
+  damage: 6000
+  chargeEffect: lightningCharge
+  colors: [000000, 808080, ffffff]
+}
+category: turret
+chargeSound: flame
+research: duo
+requirements: [
+  copper/1000
+  lead/1000
+  silicon/2000
+  titanium/3000
+]
