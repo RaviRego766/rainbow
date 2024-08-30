@@ -30,7 +30,7 @@ shootType: {
   length: 210
   width: 210
   damage: 6000
-  chargeEffect: fire
+  chargeEffect: fire 
   colors: [000000, 808080, ffffff]
 }
 category: turret
