@@ -6,7 +6,7 @@ health: 40800
 reload: 75
 range: 300
 moveWhileCharging: false
-size: 3
+size: 10
 shootSound: laser
 heatColor: ff0000
 inaccuracy: 3
