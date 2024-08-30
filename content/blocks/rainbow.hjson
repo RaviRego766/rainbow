@@ -22,7 +22,7 @@ shoot: {
     -8, -4, 0
   ],
   barrelOffset: 1
-  shots: 5
+  shots: 2
   shotDelay: 4.5
 }
 shootType: {
